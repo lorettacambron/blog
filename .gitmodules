@@ -4,3 +4,4 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/lorettacambron/lorettacambron.github.io.git
+	branch = master
