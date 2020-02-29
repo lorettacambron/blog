@@ -1,7 +1,7 @@
 +++ 
 draft = false 
 date = 2020-02-23T18:24:46-06:00
-title = "Why Is Explainability Important"
+title = "Why Is Explainability Important?"
 description = ""
 slug = "" 
 tags = []
@@ -12,7 +12,7 @@ series = []
 
 Goeff Hinton recently tweeted [[1](https://twitter.com/geoffreyhinton/status/1230592238490615816?s=20)] a question that got me thinking. At first blush, explainability sounds fantastic, and to be clear, I'm pro-explainability. However, he poses an interesting thought - if a model, algorithm, or automated surgeon is more accurate than the prior human-run decision, does it matter if we can explain?
 
-After an initial positive reaction (If I had cancer, I'd choose the more accurate option and not question decisions made to get the cure), I'm drawn to questioning what happens when things go wrong. In this case, the robot surgeon has a 90% cure rate. What happens in the 10% of cases that are not cured? Or worse, what happens when the robot makes a mistake? Or when it turns out the robot was only trained on human males in clinical trials (this still happens *all the time* because there isn't regulation around equal participation of the sexes in clinical trials [[2](https://www.amazon.com/Invisible-Women-Data-World-Designed/dp/1419729071)]. 
+After an initial positive reaction (If I had cancer, I'd choose the more accurate option and not question decisions made to get the cure), I'm drawn to questioning what happens when things go wrong. In this case, the robot surgeon has a 90% cure rate. What happens in the 10% of cases that are not cured? Or worse, what happens when the robot makes a mistake? Or when it turns out the robot was only trained on human males in clinical trials (this still happens *all the time* because there isn't regulation around equal participation of the sexes in clinical trials [[2](https://www.amazon.com/Invisible-Women-Data-World-Designed/dp/1419729071)]).
 
 When things go wrong, or when things are unexpected, *that* is when we need to be able to see what's going on in the model. That's when we need documentation on data used, data source, model architecture, and more [[3](https://arxiv.org/pdf/1803.09010.pdf), [4](https://arxiv.org/pdf/1810.03993.pdf)].
 
